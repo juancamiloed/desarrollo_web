@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="./biografia.html">La Messipedia</a>
+        </h1>
+        <nav>
+            <span style="font-size: 20px; word-spacing: 120px;">
+                <a href="./biografia.html">Biografía</a>
+                <a href="./records.html">Records</a>
+                <a href="./galeria.html">Galería</a>
+                <a href="./contacto.html">Contacto</a>
+            </span>
+        </nav>
+    </header>
+
+    <main style="padding: 12px;">
+        <div style="text-align: center;">
+            <form action="./form.html" method="post">
+                <label for="username" >Correo electrónico: </label><br>
+                <input type="text" id="email"><br><br>
+                <label for="pass">Asunto: </label><br>
+                <input type="text" id="asunto"><br><br>
+                <label for="username" >Género:  </label><br>
+                <label for="genre">Masculino</label>
+                <input type="radio" name="genre" id="genre">
+                <label for="genre">Femenino</label>
+                <input type="radio" name="genre" id="genre">
+                <label for="genre">Prefiero no decirlo</label>
+                <input type="radio" name="genre" id="genre"><br><br>
+                <label for="city">¿Donde vives?</label>
+                <select name="city" id="city">
+                    <option value="suramerica">Suramérica</option>
+                    <option value="europa">Europa</option>
+                    <option value="centroamerica">Centroamérica</option>
+                    <option value="otro">Otro</option>
+                </select><br><br>
+                <label for="comments">Mensaje para Messi: </label><br>
+                <textarea name="message" id="message" cols="40" rows="15"></textarea><br>
+                <input id="btn_form" type="submit" value="Enviar"> 
+            </form>
+        </div>
+   </main>
+
+    <footer>
+        <p style="color: whitesmoke;">
+            &copy; 2022 - Messipedia
+        </p>
+    </footer>
+</body>
+</html>

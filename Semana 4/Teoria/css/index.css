@@ -1,0 +1,9 @@
+* {
+    margin: 4px;
+    background-color: papayawhip;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+h1:hover {
+    color: red;
+}
