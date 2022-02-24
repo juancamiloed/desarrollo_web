@@ -1,0 +1,30 @@
+* {
+    margin: 0 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: red;
+}
+
+.container {
+    width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid white;
+}
+
+.elemento {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    transition-property: transform;   
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 300ms; 
+}
+
+.container:hover .elemento {
+    transform: translate(500px);
+    background-color: blueviolet;
+}
