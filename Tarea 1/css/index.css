@@ -10,6 +10,21 @@ button {
     padding: 20px;
     padding-left: 40px;
     padding-right: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+    transition: all 0.5s;
+}
+
+p {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
 }
 
 .container {
@@ -20,7 +35,7 @@ button {
 }
 
 .column {
-    display: grid;
+  display: grid;
   place-items: center;
   min-height: 100vh;
 }
