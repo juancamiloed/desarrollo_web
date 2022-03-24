@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <h1>
+        Meme generator
+    </h1>
+    <div class="meme-container">
+        <img id="img_meme" width="auto" height="360px"src="" alt="meme">
+    </div>
+    <div>
+        <p>Ingresa el siguiente código para generar un meme</p>
+        <p id="code">Codigo de 6 digitos</p>
+        <div class="form-container">
+            <form id="captcha" action="javascript:void(0);">
+                <input id="captcha_input" type="text" placeholder="Código" required>
+                <input id="btn_input" type="submit" value="Generar meme">
+            </form>
+        </div>
+    </div>
+
+    <script src="./src/index.js"></script>
+</body>
+</html>
